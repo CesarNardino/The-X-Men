@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>The X-Men</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&family=Roboto:wght@300;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./src/imagens/logo.svg" alt="Logo X-Men">
+    </header>
+
+    <main class="selecao-personagens">
+        <section class="cards">
+            <h1 class="titulo"> Selecione um X-Men: </h1>
+            <ul class="lista-personagens">
+
+                <li class="x-men selecionado" id="ciclope" data-name="Ciclope" data-description="É capaz de disparar rajadas ópticas. Entretanto, por conta de um dano no cérebro causado por um acidente de avião, Ciclope não consegue controlá-las. Por conta disso, o mutante utiliza um visor especial feito de quartzo-rubi, o único material capaz de retardar suas rajadas ópticas.">
+                    <img src="./src/imagens/card-ciclope.jpg" alt="Ciclope">
+                </li>
+
+                <li class="x-men" id="jean-grey" data-name="Jean Grey" data-description="Jean Grey possui habilidades mentais, como telecinese e telepatia. Ela é o principal avatar da Força Fênix, fazendo com que adquira um grande aumento de poderes, atingindo um potencial perigoso. Sob posse desta entidade, Jean Grey é capaz de manipular a matéria em nível sub-atômico, podendo reorganizar ou romper as estruturas moleculares de um objeto ou pessoa.">
+                    <img src="./src/imagens/card-jean-grey.jpg" alt="Jean Grey">
+                </li>
+
+                <li class="x-men" id="kitty-pryde" data-name="Kitty Pryde" data-description='Possui a habilidade de atravessar matéria sólida. Ao usar seus poderes, fica praticamente invulnerável a qualquer tipo de ataque físico ou de energia. Além disso, ao tornar-se intangível, ela fica mais leve que as moléculas de ar ou água, fazendo com que consiga "andar no ar".'>
+                    <img src="./src/imagens/card-kitty-pryde.jpg" alt="Kitty Pryde">
+                </li>
+
+                <li class="x-men" id="tempestade" data-name="Tempestade" data-description="Capaz de alterar o clima e outros fatores, como a pressão atmosférica e umidade. Tempestade consegue utilizar alguns efeitos da sua habilidade com precisão, produzindo congelamento, rajadas elétricas, voo e até nuvens tóxicas.">
+                    <img src="./src/imagens/card-tempestade.jpg" alt="Tempestade">
+                </li>
+
+                <li class="x-men" id="noturno" data-name="Noturno" data-description="Noturno é capaz de se teletransportar, podendo levar com ele uma certa quantia de massa adicional no processo. O mutante também apresenta agilidade e reflexos sobre-humanos, além de possuir visão noturna.">
+                    <img src="./src/imagens/card-noturno.jpg" alt="Noturno">
+                </li>
+
+                <li class="x-men" id="wolverine" data-name="Wolverine" data-description="Possui um fator de cura muito avançado, e também apresenta uma fisiologia mais aprimorada quando comparado à um humano comum. Suas garras, originalmente de ossos, que já eram bem letais, fizeram com que o mutante ficasse ainda mais poderoso após o Adamantium. ">
+                    <img src="./src/imagens/card-wolverine.jpg" alt="Wolverine">
+                </li>
+
+                <li class="x-men" id="vampira" data-name="Vampira" data-description="Pode absorver poderes, memórias, conhecimento e habilidades físicas (seja sobre-humana ou não) de outros indivíduos através de contato físico de sua pele com a pele de outra pessoa.">
+                    <img src="./src/imagens/card-vampira.jpg" alt="Vampira">
+                </li>
+
+                <li class="x-men" id="colossus" data-name="Colossus" data-description="Possui uma capacidade sobre-humana de converter o tecido de todo o seu corpo em uma substância de aço, fazendo com que tenha força, durabilidade, estamina e agilidade sobre-humanas, além de ser imune a sangramento.">
+                    <img src="./src/imagens/card-colossus.jpg" alt="Colossus">
+                </li>
+
+                <li class="x-men" id="fera" data-name="Fera" data-description="Possui um intelecto avançadíssimo, acompanhado de força, agilidade e velocidade sobre-humanas e garras afiadas. Como a aparência sugere, Fera também possui faro, audição e visão avançadas, semelhantes a um felino.">
+                    <img src="./src/imagens/card-fera.jpg" alt="Fera">
+                </li>
+
+                <li class="x-men" id="bispo" data-name="Bishop" data-description="Bishop é capaz de absorver grande parte dos diversos tipos de energia, incluindo mágica, sons, luz, psiônica e psíquica, podendo projetar essa energia de seu corpo de diferentes maneiras, com mais potência, seja na forma de raios de energia, explosões, fogo ou plasma. ">
+                    <img src="./src/imagens/card-bispo.jpg" alt="Bishop">
+                </li>
+
+                <li class="x-men" id="gambit" data-name="Gambit" data-description="Sua principal habilidade é a capacidade de acelerar moléculas através de seu toque. Quando entra em contato com um objeto, consegue vibrar suas moléculas, convertendo energia potencial em cinética, criando as suas características bombas explosivas. Geralmente, Gambit carrega itens pequenos (como um baralho de cartas), já que são mais fáceis e rápidos de carregar.">
+                    <img src="./src/imagens/card-gambit.jpg" alt="Gambit">
+                </li>
+            </ul>
+        </section>
+
+        <section class="personagem-selecionado">
+
+            <img class="personagem-grande" src="./src/imagens/card-ciclope.png" alt="Personagem Selecionado">
+
+            <div class="informacoes-personagem">
+
+                <h2 class="nome-personagem" id="nome-personagem">Ciclope</h2>
+
+                <p class="descricao-personagem" id="descricao-personagem">É capaz de disparar rajadas ópticas. Entretanto, por conta de um dano no cérebro causado por um acidente de avião, Ciclope não consegue controlá-las. Por conta disso, o mutante utiliza um visor especial feito de quartzo-rubi, o único material capaz de retardar suas rajadas ópticas.</p>
+            </div>
+
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
